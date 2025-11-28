@@ -1,0 +1,71 @@
+07:50:56 - MainThread - INFO - --- Start aplikace ---
+07:50:56 - MainThread - INFO - Hledám soubory...
+07:50:56 - MainThread - INFO - Nalezeno 5 obrázkù. Èekám na dokonèení...
+07:50:56 - Worker-1 - INFO - Zpracovávám: pexels-dominikagregus-672532.jpg
+07:50:56 - Worker-2 - INFO - Zpracovávám: pexels-flickr-145939.jpg
+07:50:56 - Worker-3 - INFO - Zpracovávám: pexels-gabby-k-5634600.jpg
+07:50:56 - Worker-4 - INFO - Zpracovávám: pexels-helenalopes-1388069.jpg
+07:50:56 - Worker-1 - INFO - Hotovo: pexels-dominikagregus-672532.jpg
+07:50:56 - Worker-1 - INFO - Zpracovávám: pexels-nout-gons-80280-378570.jpg
+07:50:56 - Worker-2 - INFO - Hotovo: pexels-flickr-145939.jpg
+07:50:57 - Worker-4 - INFO - Hotovo: pexels-helenalopes-1388069.jpg
+07:50:57 - Worker-1 - INFO - Hotovo: pexels-nout-gons-80280-378570.jpg
+07:50:57 - Worker-3 - INFO - Hotovo: pexels-gabby-k-5634600.jpg
+07:50:58 - MainThread - INFO - --- Vše hotovo ---
+08:55:48 - [MainThread] - INFO - --- Application Starting ---
+08:55:48 - [MainThread] - INFO - Spawning 4 worker threads.
+08:55:48 - [Worker-1] - INFO - Worker-1 started.
+08:55:48 - [Worker-2] - INFO - Worker-2 started.
+08:55:48 - [Worker-3] - INFO - Worker-3 started.
+08:55:48 - [Worker-4] - INFO - Worker-4 started.
+08:55:48 - [MainThread] - INFO - Scanning folder: C:\Users\Admin\PycharmProjects\ImageBatchProcessor\data/input
+08:55:48 - [MainThread] - INFO - Producer added 5 tasks to queue.
+08:55:48 - [Worker-2] - INFO - Worker-2: Processing pexels-dominikagregus-672532.jpg
+08:55:48 - [Worker-1] - INFO - Worker-1: Processing pexels-flickr-145939.jpg
+08:55:48 - [Worker-3] - INFO - Worker-3: Processing pexels-gabby-k-5634600.jpg
+08:55:48 - [Worker-4] - INFO - Worker-4: Processing pexels-helenalopes-1388069.jpg
+08:55:49 - [Worker-2] - INFO - Worker-2: Finished pexels-dominikagregus-672532.jpg
+08:55:49 - [Worker-2] - INFO - Worker-2: Processing pexels-nout-gons-80280-378570.jpg
+08:55:49 - [Worker-1] - INFO - Worker-1: Finished pexels-flickr-145939.jpg
+08:55:50 - [Worker-4] - INFO - Worker-4: Finished pexels-helenalopes-1388069.jpg
+08:55:50 - [Worker-2] - INFO - Worker-2: Finished pexels-nout-gons-80280-378570.jpg
+08:55:50 - [Worker-3] - INFO - Worker-3: Finished pexels-gabby-k-5634600.jpg
+08:55:51 - [MainThread] - INFO - --- Application Finished ---
+09:14:02 - [MainThread] - INFO - --- Application Starting ---
+09:14:02 - [MainThread] - INFO - Spawning 4 worker threads.
+09:14:02 - [Worker-1] - INFO - Worker-1 started.
+09:14:02 - [Worker-2] - INFO - Worker-2 started.
+09:14:02 - [Worker-3] - INFO - Worker-3 started.
+09:14:02 - [Worker-4] - INFO - Worker-4 started.
+09:14:02 - [MainThread] - INFO - Scanning folder: C:\Users\Admin\PycharmProjects\ImageBatchProcessor\data/input
+09:14:02 - [MainThread] - INFO - Producer added 5 tasks to queue.
+09:14:02 - [Worker-1] - INFO - Worker-1: Processing pexels-dominikagregus-672532.jpg
+09:14:02 - [Worker-2] - INFO - Worker-2: Processing pexels-flickr-145939.jpg
+09:14:02 - [Worker-3] - INFO - Worker-3: Processing pexels-gabby-k-5634600.jpg
+09:14:02 - [Worker-4] - INFO - Worker-4: Processing pexels-helenalopes-1388069.jpg
+09:14:02 - [Worker-1] - INFO - Worker-1: Finished pexels-dominikagregus-672532.jpg
+09:14:02 - [Worker-1] - INFO - Worker-1: Processing pexels-nout-gons-80280-378570.jpg
+09:14:02 - [Worker-2] - INFO - Worker-2: Finished pexels-flickr-145939.jpg
+09:14:03 - [Worker-4] - INFO - Worker-4: Finished pexels-helenalopes-1388069.jpg
+09:14:03 - [Worker-1] - INFO - Worker-1: Finished pexels-nout-gons-80280-378570.jpg
+09:14:03 - [Worker-3] - INFO - Worker-3: Finished pexels-gabby-k-5634600.jpg
+09:14:04 - [MainThread] - INFO - --- Application Finished ---
+10:34:16 - [MainThread] - INFO - --- Application Starting ---
+10:34:16 - [MainThread] - INFO - Spawning 4 worker threads.
+10:34:16 - [Worker-1] - INFO - Worker-1 started.
+10:34:16 - [Worker-2] - INFO - Worker-2 started.
+10:34:16 - [Worker-3] - INFO - Worker-3 started.
+10:34:16 - [Worker-4] - INFO - Worker-4 started.
+10:34:16 - [MainThread] - INFO - Scanning folder: C:\Users\Admin\PycharmProjects\ImageBatchProcessor\data/input
+10:34:16 - [MainThread] - INFO - Producer added 5 tasks to queue.
+10:34:16 - [Worker-1] - INFO - Worker-1: Processing pexels-dominikagregus-672532.jpg
+10:34:16 - [Worker-2] - INFO - Worker-2: Processing pexels-flickr-145939.jpg
+10:34:16 - [Worker-3] - INFO - Worker-3: Processing pexels-gabby-k-5634600.jpg
+10:34:16 - [Worker-4] - INFO - Worker-4: Processing pexels-helenalopes-1388069.jpg
+10:34:17 - [Worker-1] - INFO - Worker-1: Finished pexels-dominikagregus-672532.jpg
+10:34:17 - [Worker-1] - INFO - Worker-1: Processing pexels-nout-gons-80280-378570.jpg
+10:34:17 - [Worker-2] - INFO - Worker-2: Finished pexels-flickr-145939.jpg
+10:34:18 - [Worker-4] - INFO - Worker-4: Finished pexels-helenalopes-1388069.jpg
+10:34:18 - [Worker-1] - INFO - Worker-1: Finished pexels-nout-gons-80280-378570.jpg
+10:34:18 - [Worker-3] - INFO - Worker-3: Finished pexels-gabby-k-5634600.jpg
+10:34:19 - [MainThread] - INFO - --- Application Finished ---
