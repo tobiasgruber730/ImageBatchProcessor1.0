@@ -1,7 +1,7 @@
 {
   "source_folder": "data/input",
   "destination_folder": "data/output",
-  "number_of_threads": 4,
+  "number_of_threads": 0,
   "resize_width": 800,
   "resize_height": 600,
   "log_file": "logs/app.log"

@@ -71,9 +71,24 @@ class BatchProcessorApp:
         logging.info("--- Application Finished ---")
 
     def _start_workers(self):
-        """Initializes and starts worker threads."""
-        count = self.config['number_of_threads']
-        logging.info(f"Spawning {count} worker threads.")
+        """
+        Initializes and starts worker threads.
+        Determines the number of threads based on CPU cores if config is set to 0.
+        """
+        config_threads = self.config['number_of_threads']
+
+        # Logic for auto-detection
+        if config_threads <= 0:
+            # os.cpu_count() returns the number of logical CPUs.
+            # If it cannot be determined, we default to 4 as a safe fallback.
+            cpu_count = os.cpu_count() or 4
+            logging.info(f"Auto-configuration: Detected {cpu_count} CPU cores.")
+            count = cpu_count
+        else:
+            logging.info(f"Using manual configuration: {config_threads} threads.")
+            count = config_threads
+
+        logging.info(f"Spawning {count} worker threads...")
 
         for i in range(count):
             worker = ImageWorker(i + 1, self.task_queue, self.config, self.stop_event)
